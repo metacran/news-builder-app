@@ -5,14 +5,12 @@
   "scripts": {
     "start": "node ./bin/scheduler"
   },
-  "engines": {
-    "node": "0.12.x"
-  },
   "dependencies": {
-    "debug": "~2.2.0",
     "amqplib": "~0.3.2",
     "async": "~0.9.0",
-    "request": "~2.55.0",
-    "nano": "~6.1.2"
+    "debug": "~2.2.0",
+    "marky-markdown": "^12.0.0",
+    "nano": "~6.1.2",
+    "request": "~2.55.0"
   }
 }
